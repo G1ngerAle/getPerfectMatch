@@ -77,7 +77,7 @@ def image_pack(path):
             list.append(path)
 
     path_output = list[random in range(len(list))]
-    image_output = cv2.imread('/Users/henry/Desktop/Test/' + path_output)
+    image_output = cv2.imread('/Users/henry/Desktop/MAIS Hacks/' + path_output)
     window_name = "image"
     cv2.imshow(window_name, image_output)
     # waits for user to press any key
